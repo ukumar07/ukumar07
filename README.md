@@ -1,4 +1,9 @@
 ### Hi there 👋
+My name is Utkarsh Kumar,
+B.Tech in CSE from KIIT, Bhubaneswar,
+Graduating in 2024.
+
+
 
 <!--
 **ukumar07/ukumar07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
