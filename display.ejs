@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/styles.css" type="text/css" rel="stylesheet" >
+    <title>Comments</title>
+</head>
+<body>    
+    <div class="center disp" >
+        <h1>Comments</h1>
+        <ol>
+            <% for(let i of comments){ %>
+                <li><%=i.com%> - <b><%=i.username%></b></li>
+                <a href="/comments/<%=i.id%>">details</a>
+                <a href="/comments/<%=i.id%>/edit">edit</a>
+            <% } %>
+        </ol>  
+        <a href="/comments/new">Enter a new comment</a>
+    </div>    
+</body>
+</html>

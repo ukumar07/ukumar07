@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles.css" />
+    <title>Add New Comment</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Add New Comment</h1>
+      <form action="/create" method="POST">
+        <div class="form-group">
+          <div class="mb-4">
+            <label for="username" class="form-label"
+              >Enter your username :</label
+            >
+            <input
+              type="text"
+              class="form-control border-success"
+              name="username"
+            />
+          </div>
+          <br />
+          <div class="">
+            <label for="com" class="form-label">Enter new comment here :</label>
+            <br>
+            <textarea
+              name="com"
+              id="com"
+              cols="25"
+              rows="7"
+              class="form-control border-success"
+            ></textarea>
+          </div>
+          <button class="btn btn-outline-primary">Submit</button>
+          <button class="btn btn-outline-primary" href="/comments">
+            Go to main page
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

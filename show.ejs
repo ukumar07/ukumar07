@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles.css" />
+    <title>Details</title>
+  </head>
+  <body>
+    <div class="center">
+      <div >
+        <h1>The comment of <%=com.username%> :</h1>
+        <b><%=com.username%></b> says: <%=com.com%>
+        <br />
+        <button class="btn btn-outline-primary">
+          <a href="/comments">See the main page</a>
+        </button>
+        <br />
+        <button class="btn btn-outline-primary">
+          <a href="/comments/<%=com.id%>/edit">edit</a>
+        </button>
+      </div>
+      <div class="container">
+        <form action="/comments/<%=com.id%>?_method=DELETE" method="POST">
+          <button class="btn btn-outline-primary">Delete</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
