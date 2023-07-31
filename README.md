@@ -3,6 +3,8 @@ My name is Utkarsh Kumar,
 B.Tech in CSE from KIIT, Bhubaneswar,
 Graduating in 2024.
 
+All projects getting pushed on 1st Aug 2023 at 13:00:00 , please stay tuned.
+
 
 
 <!--
