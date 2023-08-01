@@ -3,7 +3,7 @@ My name is Utkarsh Kumar,
 B.Tech in CSE from KIIT, Bhubaneswar,
 Graduating in 2024.
 
-All projects getting pushed on 1st Aug 2023 at 13:00:00 , please stay tuned.
+All projects getting pushed today will have the description of all the repositories over here for you to manuever around, please stay tuned.
 
 
 
