@@ -3,7 +3,7 @@ My name is Utkarsh Kumar,
 B.Tech in CSE from KIIT, Bhubaneswar,
 Graduating in 2024.
 
-All projects getting pushed today will have the description of all the repositories over here for you to manuever around, please stay tuned.
+The code of the projects are uploaded in different repositories. 
 
 
 
